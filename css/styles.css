@@ -1,0 +1,148 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --white-color: #ffffff;
+    --secondary-white-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --bcg-main-color: #F5F5F5;
+    --bcg-footer-color: #2F303A;
+    --bcg-button-color: #F5F4FA;
+
+}
+
+.body {
+    font-family: roboto, sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--bcg-main-color);
+}
+
+/*шапка*/
+
+header {
+    background-color: var(--white-color);
+}
+
+.logo {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* навигация*/
+
+.menu-nav .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--primary-text-color)
+}
+
+.link.current:hover,
+.link.current:focus {
+    color: var(--accent-color);
+}
+
+/*контакты*/
+
+.contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--accent-color);
+}
+
+/*секція портфоліо*/
+/*фільтри*/
+
+.filter .btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background-color: var(--bcg-button-color);
+    cursor: pointer;
+}
+
+.filter .btn:hover,
+.filter .btn:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+
+/* проекти */
+
+.projects .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects .text {
+    font-size: 16px;
+    line-height: 1, 87;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/*футер*/
+
+/*логотип*/
+
+.logo.footer {
+    color: var(--white-text-color);
+    background-color: #757575;
+}
+
+/*адреса*/
+
+.footer {
+    background-color: var(--bcg-footer-color);
+}
+
+/*логотип*/
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+/*адрес*/
+
+.address {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-map {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.address .contact {
+    color: var(--secondary-white-color);
+}
