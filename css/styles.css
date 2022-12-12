@@ -7,7 +7,7 @@
     --bcg-main-color: #F5F5F5;
     --bcg-footer-color: #2F303A;
     --bcg-button-color: #F5F4FA;
-
+    --bcg-heroy-color: #2F303A;
 }
 
 .body {
@@ -23,7 +23,7 @@ header {
 }
 
 .logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -68,8 +68,98 @@ header {
     color: var(--accent-color);
 }
 
+/*Герой*/
+
+.section {
+    text-align: center;
+    color: var(--white-color);
+    background-color: var(--bcg-heroy-color);
+    letter-spacing: 0.06em;
+}
+
+.section-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.section-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    background-color: #2196F3;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+/*Особливості організації*/
+
+.speciality-main-title {
+    color: transparent;
+}
+
+.speciality {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+    
+.speciality-title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.speciality-text {
+    line-height: 1.71;
+    color: var(--secondary-text-color)
+}
+
+/*чим займається організація"*/
+
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/*Команда організації*/
+
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.main-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--secondary-text-color);
+}
+
 /*секція портфоліо*/
 /*фільтри*/
+
+.main-title {
+    color: transparent;
+}
+
 
 .filter .btn {
     font-weight: 500;
@@ -108,7 +198,6 @@ header {
 
 .logo.footer {
     color: var(--white-text-color);
-    background-color: #757575;
 }
 
 /*адреса*/
@@ -119,16 +208,10 @@ header {
 
 /*логотип*/
 
-.logo-footer {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+.logo.footer {
     color: var(--white-color);
-    text-decoration: none;
 }
-
+ 
 /*адрес*/
 
 .address {
